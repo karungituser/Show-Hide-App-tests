@@ -1,0 +1,70 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  min-height: 100vh;
+  width: 30%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    width: 80%;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 45px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+    padding-bottom: 20px;
+  }
+}
+.button {
+  background-color: #ffffff;
+  color: #dd1264;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border-radius: 7px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.name {
+  background-color: #fddddb;
+  width: 240px;
+  height: 120px;
+  padding: 25px;
+  border-radius: 7px;
+}
+.firstname {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.firstname-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .button {
+    width: 180px;
+  }
+}
